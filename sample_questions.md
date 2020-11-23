@@ -8,6 +8,7 @@ Here are examples of the kinds of questions that might be asked. This is not int
 
 3. What is the output of the following method when it is called with the input of `-1`?
 
+```
 public static int factorial(int n) {
    if(n < 0)
       throw new IllegalArgumentException();
@@ -16,6 +17,7 @@ public static int factorial(int n) {
    else
       return n * factorial(n-1); 
 }
+```
 
     - [ ] Exception thrown
     - [ ] 1
@@ -58,7 +60,7 @@ Put "X" inside brackets [ ]  of the correct answer.
     - [ ] True.
     - [ ] False.
 
-8. A software engineer must assess the trade-offs associated with using different data structures inside of a Java program. Answer these questions by comparing the following data structures in these pairs, highlighting the strengths and weaknesses of each data structure.
+8. A software engineer must assess the trade-offs associated with using different data structures inside of a Java program. Answer the following questions by comparing the following data structures in these pairs, highlighting the strengths and weaknesses of each data structure.
 
 (a) `Array` compared to `ArrayList`
 
