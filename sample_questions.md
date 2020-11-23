@@ -19,6 +19,8 @@ public static int factorial(int n) {
 }
 ```
 
+Put "X" inside brackets [ ]  of the correct answer.
+
     - [ ] Exception thrown
     - [ ] 1
     - [ ] -1
